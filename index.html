@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>game tic-tac-toe гра Хрестики нолики игра Крестики нолики</title>
+         <link rel="stylesheet" href="style.css">
+         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5388275141105129"
+     crossorigin="anonymous"></script>
+    </head>
+    <body>
+<div class="container1">
+    <div class="column">
+      <h1>Гра "Хрестики-нолики"</h1>
+      <h2>Правила гри</h2>
+      <p>
+          Дана гра передбачає змагання одного гравця з комп'ютером.</br>
+          Перед Вами є поле, що складється з дев'яти клітин (трьох вертикальних та трьох горизонтальних).</br>
+          Першим ходить гравець. Він повинен вибрати одну із клітинок та просто клацнути по ній - в центрі клітини з'явиться хрестик.</br>
+          Після чого комп'ютер відразу вибере випадкову комбінацію. В одній із пустих клітин з'явиться нолик.</br>
+          Головне завдання цієї гри - швидше заповнити горизонтальну або вертикальну, або - лінію по діагоналі.</br>
+          Гра може мати два варіанти завершення:</br> 1) перемога гравця або комп'ютера; </br>2) нічия.</br>
+          Щоб почати нову гру - натисність кнопку "Нова гра".</br>
+          Гарного дозвілля!
+
+      </p>
+     
+    </div>
+    <div class="column">
+      <table>
+        <tr>
+          <td class="cell" id="0"></td>
+          <td class="cell" id="1"></td>
+          <td class="cell" id="2"></td>
+        </tr>
+        <tr>
+          <td class="cell" id="3"></td>
+          <td class="cell" id="4"></td>
+          <td class="cell" id="5"></td>
+        </tr>
+        <tr>
+          <td class="cell" id="6"></td>
+          <td class="cell" id="7"></td>
+          <td class="cell" id="8"></td>
+        </tr>
+      </table>
+      <div class="endgame">
+        <div class="text"></div>
+      </div>
+      <button class="bt" onClick="startGame()">Нова гра</button>
+    </div>
+</div>
+<script src="script.js"></script>
+    </body>
+    
+</html>
